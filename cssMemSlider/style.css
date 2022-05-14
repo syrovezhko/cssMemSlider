@@ -6,7 +6,7 @@
 .slider {
     font-size: 10px;
     width: 70rem;
-    height: 94vh;
+    height: 91vh;
     overflow: hidden;
     border: 3rem solid #2c2c2c;
     border-top: 1rem solid #2c2c2c;
@@ -59,7 +59,7 @@ input {
 
 .slides {
     width: 400%;
-    height: 50rem;
+    height: 48rem;
     display: flex;
 }
 
@@ -70,7 +70,7 @@ input {
     transition: all .2s ease;
 }
 .slide div {
-    margin-top: 2rem;
+    margin-top: 1.1rem;
 }
 
 .slide img {
