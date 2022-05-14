@@ -38,7 +38,7 @@
     background-color: white;
     border-color: white;
 }
-.bar:focus {
+.bar:focus .ring{
     border-color: #2c2c2c;
 }
 
