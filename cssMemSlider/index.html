@@ -8,28 +8,37 @@
     <title>cssMemSlider</title>
 </head>
 <body>
-    <div class="container">
-        <div class="slider-block">
-            <div class="slider">
-                <div class="slide"><img src="assets/images/mem1.png" alt="mem1" ,=""></div>
-                <div class="slide"><img src="assets/images/mem2.png" alt="mem2" ,=""></div>
-                <div class="slide"><img src="assets/images/mem3.png" alt="mem3" ,=""></div>
-                <div class="slide"><img src="assets/images/mem4.png" alt="mem4" ,=""></div>
+    <div class="slider middle">
+        <div class="slides">
+            <input type="radio" name="r" id="radio1" checked>
+            <input type="radio" name="r" id="radio2">
+            <input type="radio" name="r" id="radio3">
+            <input type="radio" name="r" id="radio4">
+
+            <div class="slide s1">
+                <img src="assets/images/mem1.png" alt="mem1">
+                <div class="sign s1">What is the world's most popular language?</div>
             </div>
-            <div class="row">
-                <div class="row-sign">
-                    <p class="row-sign-line sign1">What is the world's most popular language?</p>
-                    <p class="row-sign-line sign2">BackEnd trolling</p>
-                    <p class="row-sign-line sign3">Frontend hentai, cover</p>
-                    <p class="row-sign-line sign4">Hey Georgie. Want a framework?</p>
-                </div>
-                <div class="row-btn">
-                    <input type="radio" name="radio" id="radio1" checked>
-                    <input type="radio" name="radio" id="radio2">
-                    <input type="radio" name="radio" id="radio3">
-                    <input type="radio" name="radio" id="radio4"></div>
+            <div class="slide">
+                <img src="assets/images/mem2.png" alt="mem2">
+                <div class="sign">BackEnd trolling</div>
+            </div>
+            <div class="slide">
+                <img src="assets/images/mem3.png" alt="mem3">
+                <div class="sign">Frontend hentai, cover</div>
+            </div>
+            <div class="slide">
+                <img src="assets/images/mem4.png" alt="mem4">
+                <div class="sign">Hey Georgie. Want a framework?</div>
             </div>
         </div>
+        <div class="navigation">
+            <label type='input' for="radio1" class="bar"><div class="ring"></div></label>
+            <label for="radio2" class="bar"><div class="ring"></div></label>
+            <label for="radio3" class="bar"><div class="ring"></div></label>
+            <label for="radio4" class="bar"><div class="ring"></div></label>
+        </div>
     </div>
+
 </body>
 </html>
