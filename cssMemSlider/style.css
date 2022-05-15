@@ -242,19 +242,19 @@ input[name=r] {
 }
 
 
-#radio1:checked ~ .slide:first-child {
+#radio1:checked ~ .s1 {
     margin-left: 0;
 }
 
-#radio2:checked ~ .slide:first-child {
+#radio2:checked ~ .s1 {
     margin-left: -25%;
 }
 
-#radio3:checked ~ .slide:first-child {
+#radio3:checked ~ .s1 {
     margin-left: -50%;
 }
 
-#radio4:checked ~ .slide:first-child {
+#radio4:checked ~ .s1 {
     margin-left: -75%;
 }
 
