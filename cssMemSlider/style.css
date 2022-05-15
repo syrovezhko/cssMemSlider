@@ -234,7 +234,7 @@ input[name=r] {
     .nav-bar-ring{
         width: 1rem;
         height: 1rem;
-        border: solid 0.1rem #005eff;
+        border: solid 0.2rem #005eff;
     }
 }
 @media screen and (max-width: 350px){
