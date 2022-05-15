@@ -15,11 +15,8 @@
     background-color: #2c2c2c;
 }
 
-/* .middle {
-} */
-
 .nav {
-    margin-top: 2rem;
+    margin-top: 1.5vh;
     right: 0;
     display: flex;
     justify-content: flex-end;
@@ -61,7 +58,7 @@ input[name=r] {
 
 .slider-slides {
     width: 400%;
-    height: 56rem;
+    height: 80vh;
     display: flex;
 }
 
@@ -72,7 +69,7 @@ input[name=r] {
 }
 .slide-sign {
     font-size: 2rem;
-    margin-top: 2.1rem;
+    margin-top: 2vh;
 }
 
 .slide img {
@@ -85,7 +82,7 @@ input[name=r] {
         width: 61vw;
     }
     .slider-slides {
-        height: 54rem;
+        height: 79vh;
     }
 }
 @media screen and (max-width: 2000px){
@@ -93,7 +90,7 @@ input[name=r] {
         width: 62vw;
     }
     .slider-slides {
-        height: 52rem;
+        height: 78vh;
     }
 }
 @media screen and (max-width: 1900px){
@@ -101,7 +98,7 @@ input[name=r] {
         width: 63vw;
     }
     .slider-slides {
-        height: 50rem;
+        height: 76vh;
     }
 }
 @media screen and (max-width: 1800px){
@@ -109,7 +106,7 @@ input[name=r] {
         width: 64vw;
     }
     .slider-slides {
-        height: 48rem;
+        height: 74vh;
     }
 }
 @media screen and (max-width: 1700px){
@@ -117,7 +114,7 @@ input[name=r] {
         width: 65vw;
     }
     .slider-slides {
-        height: 46rem;
+        height: 70vh;
     }
 }
 @media screen and (max-width: 1600px){
@@ -125,7 +122,7 @@ input[name=r] {
         width: 66vw;
     }
     .slider-slides {
-        height: 44rem;
+        height: 67vh;
     }
 }
 @media screen and (max-width: 1500px){
@@ -133,7 +130,7 @@ input[name=r] {
         width: 67vw;
     }
     .slider-slides {
-        height: 42rem;
+        height: 65vh;
     }
 }
 @media screen and (max-width: 1400px){
@@ -141,7 +138,7 @@ input[name=r] {
         width: 68vw;
     }
     .slider-slides {
-        height: 39rem;
+        height: 61vh;
     }
 }
 @media screen and (max-width: 1300px){
@@ -149,7 +146,7 @@ input[name=r] {
         width: 69vw;
     }
     .slider-slides {
-        height: 34.5rem;
+        height: 55vh;
     }
 }
 @media screen and (max-width: 1200px){
@@ -157,7 +154,7 @@ input[name=r] {
         width: 70vw;
     }
     .slider-slides {
-        height: 33rem;
+        height: 50vh;
     }
     .slide-sign {
         margin-top: 5.5rem;
@@ -171,7 +168,7 @@ input[name=r] {
         width: 71vw;
     }
     .slider-slides {
-        height: 31.5rem;
+        height: 46vh;
     }
 }
 @media screen and (max-width: 1000px){
@@ -179,7 +176,7 @@ input[name=r] {
         width: 71.5vw;
     }
     .slider-slides {
-        height: 29rem;
+        height: 43vh;
     }
 }
 @media screen and (max-width: 900px){
@@ -187,7 +184,7 @@ input[name=r] {
         width: 72.5vw;
     }
     .slider-slides {
-        height: 28rem;
+        height: 38vh;
     }
 }
 @media screen and (max-width: 800px){
@@ -195,7 +192,7 @@ input[name=r] {
         width: 73.5vw;
     }
     .slider-slides {
-        height: 24rem;
+        height: 34vh;
     }
 }
 @media screen and (max-width: 700px){
@@ -203,7 +200,7 @@ input[name=r] {
         width: 74.5vw;
     }
     .slider-slides {
-        height: 23rem;
+        height: 30vh;
     }
 }
 @media screen and (max-width: 480px){
@@ -211,22 +208,22 @@ input[name=r] {
         width: 75rem;
     }
     .slider-slides {
-        height: 17rem;
+        height: 25vh;
     }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 350px){
     .slider {
         width: 80vw;
     }
     .slider-slides {
-        height: 12rem;
+        height: 30vh;
     }
     .slide-sign {
-        margin-top: 3rem;
+        margin-top: 8vh;
         font-size: 1.1rem;
     }
     .nav{
-        margin-top: 0.2rem;
+        margin-top: 0vh;
     }
     .nav-bar {
         padding: 1rem;
