@@ -211,12 +211,12 @@ input[name=r] {
         height: 25vh;
     }
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 450px){
     .slider {
         width: 80vw;
     }
     .slider-slides {
-        height: 30vh;
+        height: 60vw;
     }
     .slide-sign {
         margin-top: 8vh;
@@ -237,7 +237,14 @@ input[name=r] {
         border: solid 0.1rem #005eff;
     }
 }
-
+@media screen and (max-width: 350px){
+    .slider {
+        width: 80vw;
+    }
+    .slider-slides {
+        height: 50vw;
+    }
+}
 
 #radio1:checked ~ .s1 {
     margin-left: 0;
