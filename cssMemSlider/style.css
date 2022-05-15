@@ -246,20 +246,39 @@ input[name=r] {
     }
 }
 
-#radio1:checked ~ .s1 {
+#radio1:checked ~ .nav-bar > .ring1 {
+    background-color: #2c2c2c;
+}
+
+#radio2:checked ~ .nav-bar > .ring2 {
+    background-color: #2c2c2c;
+}
+
+#radio3:checked ~ .nav-bar > .ring3 {
+    background-color: #2c2c2c;
+}
+
+#radio4:checked ~ .nav-bar > .ring4 {
+    background-color: #2c2c2c;
+}
+
+#radio1:checked ~ .s1{
     margin-left: 0;
+    background-color: #2c2c2c;
 }
 
-#radio2:checked ~ .s1 {
+#radio2:checked ~ .s1{
     margin-left: -25%;
+    background-color: #2c2c2c;
 }
 
-#radio3:checked ~ .s1 {
+#radio3:checked ~ .s1{
     margin-left: -50%;
+    background-color: #2c2c2c;
 }
 
-#radio4:checked ~ .s1 {
+#radio4:checked ~ .s1{
     margin-left: -75%;
+    background-color: #2c2c2c;
 }
-
 
